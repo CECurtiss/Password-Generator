@@ -1,6 +1,7 @@
-// Assignment code here
+function passwordInit(){
+window.prompt("Please choose the number of characters (between 8-128) your password will be:");
 
-
+}
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
