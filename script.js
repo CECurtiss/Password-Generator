@@ -13,9 +13,11 @@ function generatePassword(){
   var charNum = prompt("Please choose the number of characters (between 8-128) your password will be:");
    
    if (charNum <= 7) {
-   alert("The password length must be between 8 and 128 characters.");
+   alert("The password length must be between 8 and 128 characters.")
+   return "Your Secure Password";
    } else if (charNum >= 129) {
-   alert("The password length must be between 8 and 128 characters.");
+   alert("The password length must be between 8 and 128 characters.")
+   return "Your Secure Password";
    } else (charNum === true);
   
    var lowercaseConfirm = confirm("Would you like your password to contain lower case letters?");
